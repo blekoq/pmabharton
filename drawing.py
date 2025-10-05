@@ -12,7 +12,7 @@ for i in range(4):
     blekoq.right(90)
 blekoq.end_fill()
 blekoq.forward(50)
-for i in range(20)::
+for i in range(20):
     blekoq.forward(10)
     blekoq.right(18)
 time.sleep(10)
