@@ -6,4 +6,6 @@ elif(kondisi=="sakit"):
 elif(kondisi=="kebelet eeq"):
     print("kangker")
 else:
-    print("SIUH SIUH SIUH BUKAN URUSAN KU")
+    print("SIUH SIUH SIUH BUKAN URUSAN kU")
+    
+    
