@@ -25,15 +25,21 @@ for sayur in untuksayur:
     print(angka, ".", sayur, ": Rp", untuksayur[sayur])
     angka+=1
 totalbelanja=0
-daftabelanja={}
-
+daftarbelanja={}
+# print (list(untuksayur.values())[3-1])
 while True:
     print("masukan angka sayur yang ingin di beli:")
-    pilihan=input()
+    pilihan=int(input())
     jumlah=int(input("berapa kilo :"))
-    daftabelanja[pilihan]=jumlah
+    daftarbelanja[pilihan]=jumlah
     selesai=input("apakah sudah selesai belanja? (y/n)")
     if selesai.lower() == "y":
         break
+print()
 print("daftar belanjaan anda:")
-print(daftabelanja)
+for belanjaan in daftarbelanja:
+    print((list(untuksayur.keys())[belanjaan-1]), ":", daftarbelanja[belanjaan], "kilo")
+for belanjaan in daftarbelanja:
+    totalbelanja+=(list(untuksayur.values())[belanjaan-1])*daftarbelanja[belanjaan]
+print()   
+print("total belanjaan anda adalah: Rp", totalbelanja)
