@@ -43,3 +43,6 @@ for belanjaan in daftarbelanja:
     totalbelanja+=(list(untuksayur.values())[belanjaan-1])*daftarbelanja[belanjaan]
 print()   
 print("total belanjaan anda adalah: Rp", totalbelanja)
+word="ANJAY GURINJAY MAKAN BAJAY"
+for huruf in word.split():
+    print(huruf)

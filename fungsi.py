@@ -39,10 +39,17 @@ def  siapkanbahan():
 def memasak(porsi):
     print("memasak gyukaku ", porsi, "porsi")
 def takeaway():
-    print("makan di tempat atau takeaway?")
+    print("makan di tempat? (y/n)")
+    jawaban=input()
+    if(jawaban=="y" or jawaban=="Y"):
+        print("makan di tempat")
+    else:
+        print("membawa pulang gyukaku")
+    
 siapkanbahan()
 porsi=input("masukan jumlah porsi yang ingin di masak: ")
 memasak(porsi)
-
+takeaway()
+print (takeaway())
     
     
