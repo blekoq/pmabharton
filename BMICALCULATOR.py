@@ -4,6 +4,7 @@ tinggi=int(input("berapa tinggi badan mu?(cm): "))
 tinggim=tinggi/100
 BMI=berat/tinggim**2 
 print(BMI)
+print(type(BMI))
 # gemuk
 if(BMI>25):
     print("kamu gemuk silahkan [DIET]")
