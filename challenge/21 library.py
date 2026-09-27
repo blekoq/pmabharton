@@ -1,3 +1,3 @@
-import platform
+import platform#mengimport library platform
 
-print(platform.system())
+print(platform.system()) #mencetak nama sistem operasi
